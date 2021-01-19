@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/kaloyan-marinov/node-typescript/issues"
   },
-  "homepage": "https://github.com/kaloyan-marinov/node-typescript#readme"
+  "homepage": "https://github.com/kaloyan-marinov/node-typescript#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
