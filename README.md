@@ -25,10 +25,20 @@ $ ./node_modules/typescript/bin/tsc app.ts -w
 
 ---
 
-This isn't really the ideal way to do things. You want to set up a config file:
+1. This isn't really the ideal way to do things. You want to set up a config file:
 
 ```
 $ ./node_modules/typescript/bin/tsc --init
 ```
 
 which is going to generate a `tsconfig.json` file.
+
+2. Modify that config file as you see fit.
+
+3. In the terminal session, you can now run
+
+```
+$ node_modules/typescript/bin/tsc
+```
+
+which is going to look at the `rootDir` (with TypeScript files; specified in the config file), and is then going to create a `distDir` (also specified in the config file) with JavaScript files.
