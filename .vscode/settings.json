@@ -1,4 +1,8 @@
 {
+  "editor.rulers": [
+    88, 100
+  ],
+  
   // Set the default
   "editor.formatOnSave": false,
   // Enable per-language
