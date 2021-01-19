@@ -42,3 +42,19 @@ $ node_modules/typescript/bin/tsc
 ```
 
 which is going to look at the `rootDir` (with TypeScript files; specified in the config file), and is then going to create a `distDir` (also specified in the config file) with JavaScript files.
+
+---
+
+Issuing
+
+```
+$ npm run dev
+```
+
+causes `nodemon` to start **and** to watch the TypeScript file.
+
+While it is running, you can verify that the HTTP-server process is running by issuing the following command in a separate terminal session:
+
+```
+$ curl -v localhost:3000
+```
