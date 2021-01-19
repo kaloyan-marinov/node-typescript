@@ -58,3 +58,21 @@ While it is running, you can verify that the HTTP-server process is running by i
 ```
 $ curl -v localhost:3000
 ```
+
+---
+
+Once you are ready to **compile** - or **build** - you can just issue
+
+```
+$ npm run build
+```
+
+which is going to create a `dist` folder with `app.js` (that contains our **compiled** JavaScript).
+
+And then, if you want to run the HTTP server, you issue:
+
+```
+$ npm start
+```
+
+While it is running, you can verify that the HTTP-server process is running, in the same way as described in the previous section.
